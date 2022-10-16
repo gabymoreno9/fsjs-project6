@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Unit 1: A Random Quote Generator",
+      "description": "Built a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+      "technologies": ["JS", "Data Structures"],
+      "live_link": "#",
+      "github_link": "https://github.com/gabymoreno9/FSJS-Project1",
+      "image_urls": ["/static/images/project1-2.png", "/static/images/project1-1.png"]
+    },
+    {
+      "id": 1,
+      "project_name": "Unit 2: Data Pagination and Filtering",
+      "description": "Wrote JavaScript to display several “pages” of student data that the user can easily navigate and view.",
+      "technologies": ["JS"],
+      "live_link": "#",
+      "github_link": "https://github.com/gabymoreno9/fsjs-project2",
+      "image_urls": ["/static/images/project2-2.png", "/static/images/project2-1.png"]
+    },
+    {
+      "id": 2,
+      "project_name": "Unit 3: Interactive Form",
+      "description": "Enhanced a form so that it’s engaging, interactive, and easy to use.",
+      "technologies": ["JS"],
+      "live_link": "#",
+      "github_link": "https://github.com/gabymoreno9/fsjs-project3",
+      "image_urls": ["/static/images/project3-1.png", "/static/images/project3-2.png"]
+    },
+    {
+      "id": 3,
+      "project_name": "Unit 4: OOP Game Show App",
+      "description": "Used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+      "technologies": ["JS"],
+      "live_link": "#",
+      "github_link": "https://github.com/gabymoreno9/fsjs-project4",
+      "image_urls": ["/static/images/project4-1.png", "/static/images/project4-2.png"]
+    },
+    {
+      "id": 4,
+      "project_name": "Unit 5: Public API Requests",
+      "description": "Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
+      "technologies": ["JS"],
+      "live_link": "#",
+      "github_link": "https://github.com/gabymoreno9/fsjs-project5",
+      "image_urls": ["/static/images/project5-1.png", "/static/images/project5-2.png"]
+    }
+  ]
+}
