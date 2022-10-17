@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-intro
+
+    //- Server Error Message
+    h1= `${error.status} Error`
+
+    h2 I'm sorry dave I'm afraid I can't do that
+
+    p= error.message

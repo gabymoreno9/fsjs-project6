@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-intro
+
+    //- Page not found message
+    h1= `${error.status} Error`
+    
+    h2 These are not the droids you're looking for
