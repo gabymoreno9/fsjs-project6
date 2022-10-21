@@ -65,6 +65,10 @@ a {
   text-decoration: none;
 }
 
+a, .header button {
+  cursor: url('/static/images/cursor.png'), default;
+}
+
 .wrapper {
   width: 100%;
   min-width: 320px;
@@ -149,8 +153,7 @@ nav a span {
   min-height: 100%;
   padding: 20px;
   background: #000;
-  background-image: linear-gradient(to bottom right, #B198D7, #91A4DA);
-
+  background-image: linear-gradient(-206deg, #835EFF 0%, #FF008D 100%);
 
 }
 
@@ -165,7 +168,8 @@ nav a span {
 .sidebar .thumbnail {
   width: 100%;
   max-width: 250px;
-  border: 4px solid #fff;
+  /* border: 4px solid #fff; */
+  margin-left: -5px;
 }
 
 .dev-intro-box {
@@ -173,18 +177,22 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: #fff;
   margin: 0 auto 0.5rem;
   font-family: 'Comfortaa', cursive;
   font-weight: bold;
+  margin-top: 40px;
 
+}
+svg {
+  background-color: white;
 }
 
 .sidebar p {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #373D44;
+  color: #fff;
 }
 
 .sidebar a {
@@ -193,7 +201,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #fff;
 }
 
 .header {
@@ -201,8 +209,7 @@ nav a span {
   color: #fefefe;
   height: 40px;
   padding: 0.5rem;
-  background: #0a0a0a;
-  border-left: 1px solid #0a0a0a;
+  background-image: linear-gradient(-206deg, #835EFF 0%, #FF008D 100%);
 }
 
 .header span {
@@ -212,13 +219,12 @@ nav a span {
 
 .header button {
   vertical-align: top;
-  cursor: pointer;
   outline: none;
   position: relative;
   width: 20px;
   height: 16px;
   border: none;
-  background: #0a0a0a;
+  background: transparent;
   margin-top: 3px;
   margin-right: 10px;
   border-top: 2px solid #fefefe;
@@ -316,9 +322,27 @@ nav a span {
   background-color: #333;
   border: 1px solid transparent;
   font-family: 'Comfortaa', cursive;
-
+  filter: hue-rotate(0deg);
+  transition: all .9s;
+  border-radius: 5px;
 }
+.btn-link:hover{
+  /* background-image: linear-gradient(-206deg, #835EFF 0%, #FF008D 100%); */
+  /* opacity: 0.7;
+  transition: 0.2s; */
+  /* transition: all 0.7s linear; */
 
+  transition: all .5s;
+  filter: hue-rotate(135deg);
+  background: rgba(73,155,234,1);
+  background: -moz-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(26,188,156,1)));
+  background: -webkit-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+  background: linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#1abc9c', GradientType=1 );
+}
 
 /* 
   Tablet layout styles 
@@ -383,3 +407,31 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+/* About page  */
+.show-gif {
+  /* position: fixed; */
+  /* top: -10%; */
+  /* right: -10%; */
+  /* bottom: 0; */
+  /* left: 0; */
+  /* background-position: center center; */
+  background-color: #000;
+  background-size: cover;
+  display: none; }
+
+section {
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  width: 800px;
+  margin-left: -200px;
+  overflow: visible; }
+
+svg.lavalamp {
+  background-color: transparent;
+  width: 100%;
+  height: 400px;
+}
+
